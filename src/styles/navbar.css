@@ -1,0 +1,28 @@
+#Navbar {
+    background: rgb(63, 63, 223);
+    border-bottom: 2px solid rgb(12, 12, 12);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Navbar .title {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+
+#Navbar .title h1 {
+    padding-left: 50px;
+}
+
+#Navbar ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+#Navbar ul li:hover {
+    cursor: pointer;
+}
