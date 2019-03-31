@@ -1,5 +1,5 @@
 #Navbar {
-    background: rgb(63, 63, 223);
+    background-image: linear-gradient(to right top, #0066ff, #0057ff, #0045ff, #002fff, #0600ff);
     border-bottom: 2px solid rgb(12, 12, 12);
     color: white;
     display: flex;
@@ -18,11 +18,9 @@
     padding-left: 50px;
 }
 
-#Navbar ul li {
+.links {
     text-decoration: none;
     list-style: none;
-}
-
-#Navbar ul li:hover {
-    cursor: pointer;
+    color: #fff;
+    margin: 15px;
 }
