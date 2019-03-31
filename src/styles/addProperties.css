@@ -1,0 +1,12 @@
+#AddProperties form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#AddProperties form input {
+    margin: 15px 5px;
+    padding: 8px 0;
+    font-size: 15px;
+}
