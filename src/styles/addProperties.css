@@ -1,12 +1,31 @@
-#AddProperties form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+#AddProperties {
+    width: 50%;
+    margin: auto;
+    padding: 40px 30px;
 }
 
-#AddProperties form input {
-    margin: 15px 5px;
+#AddProperties form {
+    background: #fff;
+    padding: 30px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(131, 130, 130);
+}
+
+#AddProperties form input,
+select {
     padding: 8px 0;
-    font-size: 15px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#AddProperties form button {
+    padding: 8px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border-radius: 4px;
 }
