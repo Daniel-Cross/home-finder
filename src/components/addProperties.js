@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Alert from './alert';
+import Alert from './Alert';
 import axios from 'axios';
 import '../styles/addProperties.css';
 
