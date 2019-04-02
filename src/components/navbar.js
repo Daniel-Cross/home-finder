@@ -7,7 +7,7 @@ const Navbar = () => {
 		<div id="Navbar">
 			<div className="title">
 				<i className="fab fa-fort-awesome fa-4x" />
-				<h1>MY NEW HOME</h1>
+				<h1>Surreal Estate</h1>
 			</div>
 			<ul>
 				<Link className="links" to="/">

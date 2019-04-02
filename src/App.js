@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Switch } from 'react-router';
-import Navbar from './components/navbar';
-import Properties from './components/properties';
-import AddProperties from './components/addProperties';
+import Navbar from './components/Navbar';
+import Properties from './components/Properties';
+import AddProperties from './components/AddProperties';
 import './App.css';
 
 class App extends Component {
